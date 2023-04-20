@@ -5,7 +5,7 @@ import os
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 # Set up the prompt for the GPT-4 model
-prompt = "a white siamese cat"
+prompt = "pie chart with an investment analysis"
 
 # Call the OpenAI API to generate a response
 response = openai.Image.create(
