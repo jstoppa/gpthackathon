@@ -24,7 +24,7 @@ python -m venv .
 
 7. Open the repo in VSCode and run the file OpenAI/openai_hello_world.py to get the virtual machine started, it will most likely throw and error saying it can't find the openai package
 
-8. Install all packages needed using the terminal inside VSCode
+8. Install all packages needed by running the command below using the terminal inside VSCode
 ```bash
 pip install -r requirements.txt
 ```
