@@ -22,4 +22,4 @@ pip install -r requirements.txt
 
 5. Create an environment variable called OPENAI_API_KEY and enter the API key from the OpenAI website 
 
-6. Open the repo in VSCode and run the file openai_hello_world.py to make sure it works correctly
+6. Open the repo in VSCode and run the file OpenAI/openai_hello_world.py to make sure it works correctly
