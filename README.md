@@ -20,11 +20,11 @@ cd gpthackathon
 python -m venv .
 ```
 
-6. Run the pip command against requirements.txt
+6. Create an environment variable called OPENAI_API_KEY and enter the API key from the OpenAI website 
+
+7. Open the repo in VSCode and run the file OpenAI/openai_hello_world.py to get the virtual machine started, it will most likely throw and error saying it can't find the openai package
+
+8. Install all packages needed using the terminal inside VSCode
 ```bash
 pip install -r requirements.txt
 ```
-
-7. Create an environment variable called OPENAI_API_KEY and enter the API key from the OpenAI website 
-
-8. Open the repo in VSCode and run the file OpenAI/openai_hello_world.py to make sure it works correctly
