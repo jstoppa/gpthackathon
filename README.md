@@ -15,11 +15,16 @@ git clone https://github.com/jstoppa/gpthackathon.git
 cd gpthackathon
 ```
 
-5. Run the pip command against requirements.txt
+5. Create virtual machine 
+```bash
+python -m venv .
+```
+
+6. Run the pip command against requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
 
-5. Create an environment variable called OPENAI_API_KEY and enter the API key from the OpenAI website 
+7. Create an environment variable called OPENAI_API_KEY and enter the API key from the OpenAI website 
 
-6. Open the repo in VSCode and run the file OpenAI/openai_hello_world.py to make sure it works correctly
+8. Open the repo in VSCode and run the file OpenAI/openai_hello_world.py to make sure it works correctly
